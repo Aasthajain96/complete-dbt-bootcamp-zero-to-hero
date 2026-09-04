@@ -41,7 +41,7 @@ models:
     dim:
       +materialized: table
     src:
-      +materialized: ephemeral
+      +materialized: view
     fct:
       +tags: ['fact']
 data_tests:
